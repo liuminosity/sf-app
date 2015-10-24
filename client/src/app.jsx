@@ -4,15 +4,17 @@ var Router = ReactRouter.Router;
 var Route = ReactRouter.Route;
 var Link = ReactRouter.Link;
 var RouteHandler = ReactRouter.RouteHandler;
-var defaultRoute = ReactRouter.DefaultRoute;
+var DefaultRoute = ReactRouter.DefaultRoute;
+var ReactDOM = require('react-dom');
 
 var App = React.createClass({
+  // mixins: [ReactRouter.Navigation],
 
   componentWillMount: function componentWillMount() {
-    var _this = this;
-    $.ajax({
+    // var _this = this;
+    // $.ajax({
       
-    });
+    // });
   },
 
   render: function render() {
@@ -21,3 +23,9 @@ var App = React.createClass({
 })
 
 
+var routes = (
+  React.createElement(Route, {name: 'app', path : '/', component: App}
+  )
+);
+
+ReactDOM.render(<Router>{routes}</Router>, document.querySelector('.container'))
