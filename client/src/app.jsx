@@ -12,6 +12,7 @@ var App = React.createClass({
 
   componentWillMount: function componentWillMount() {
     // var _this = this;
+    console.log('sup');
     // $.ajax({
       
     // });
