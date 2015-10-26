@@ -5,7 +5,6 @@ var https = require('https');
 var pem = require('pem');
 
 var salesforceAuth = require('../salesforceAuth');
-console.log('this is auth', salesforceAuth);
 
 pem.createCertificate({days:1, selfSigned:true}, function(err, keys){
 
