@@ -10,10 +10,10 @@
 
 #salesforceAuth.js
 This file is necessary as it stores your salesforce key and secret. The format of the file is:
-`
+```
 module.exports = {
   consumerKey : 'your key',
   consumerSecret: 'your secret',
   callbackURL: 'https://127.0.0.1'
 };
-`
+```
