@@ -3,6 +3,7 @@
   "description": "",
   "version": "1.0.0",
   "dependencies": {
+    "bootstrap": "^3.3.5",
     "browserify": "^11.2.0",
     "express": "^4.13.3",
     "gulp": "^3.9.0",
@@ -12,5 +13,8 @@
     "reactify": "^1.1.1",
     "vinyl-source-stream": "^1.1.0",
     "watchify": "^3.4.0"
+  },
+  "devDependencies": {
+    "react-sidenav": "0.0.15"
   }
 }
